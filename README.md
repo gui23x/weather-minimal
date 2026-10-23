@@ -8,7 +8,10 @@ Weather Minimal is a React Native application built with Expo that provides loca
 
 * **Real-Time Weather Data:** Displays current temperature, perceived temperature, and general weather conditions.
 * **Environmental Indicators:** Tracks sunrise, sunset, UV index, and European Air Quality Index (AQI).
-* **5-Day Forecast:** Provides daily minimum/maximum temperatures and precipitation probability.
+* **Interactive 5-Day Forecast:** Shows daily minimum/maximum temperatures and weather icons. Select a day to view its hourly forecast.
+* **Hourly Rain Forecast:** Displays precipitation probability and temperature hour by hour for the selected day, adding detail to the forecast throughout the day.
+* **Animated Weather:** Weather icons animate subtly, and falling rain appears on screen when rain or thunderstorms are currently detected.
+* **Cleaner Forecast List:** Precipitation percentages are omitted from beside the daily weather icons; rain probabilities are shown in the hourly chart instead.
 * **Theming:** Native support for Light and Dark modes.
 * **Localization:** Built-in English and Portuguese language support.
 * **Unit Preferences:** Toggle between Metric and Imperial measurement systems.

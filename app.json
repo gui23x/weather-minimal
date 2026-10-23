@@ -2,7 +2,7 @@
   "expo": {
     "name": "Weather Minimal",
     "slug": "weather-minimal",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -30,6 +30,10 @@
       "eas": {
         "projectId": "348a362d-2500-4a00-815e-11695ad08ee5"
       }
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-status-bar"
+    ]
   }
 }
